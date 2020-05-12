@@ -4,7 +4,8 @@ platform :ios, '8.0'
 
 target 'JKBeeHivewMJRefresh_Example' do
   pod 'JKBeeHivewMJRefresh', :path => '../'
-
+  pod 'MJRefresh' , '~>3.0'
+  pod "BeeHive",'~>1.6'
   target 'JKBeeHivewMJRefresh_Tests' do
     inherit! :search_paths
 

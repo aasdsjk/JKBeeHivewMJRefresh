@@ -1,0 +1,35 @@
+PODS:
+  - BeeHive (1.6.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JKBeeHivewMJRefresh (0.1.0)
+  - MJRefresh (3.4.3)
+
+DEPENDENCIES:
+  - BeeHive (~> 1.6)
+  - FBSnapshotTestCase
+  - JKBeeHivewMJRefresh (from `../`)
+  - MJRefresh (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - BeeHive
+    - FBSnapshotTestCase
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  JKBeeHivewMJRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JKBeeHivewMJRefresh: ccf0186711331633df4da0ee4e94c38657c03479
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+
+PODFILE CHECKSUM: 12c3846eb89582bbe134a69627ebbd3e41743583
+
+COCOAPODS: 1.9.1
