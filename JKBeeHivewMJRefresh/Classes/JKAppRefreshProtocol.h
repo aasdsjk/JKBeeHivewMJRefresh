@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BHServiceProtocol.h"
+//#import "BHServiceProtocol.h"
+#import <BeeHive/BHServiceProtocol.h>
 NS_ASSUME_NONNULL_BEGIN
 typedef void(^JKRefreshAndLoadMoreHandle)(void);
 

@@ -5,7 +5,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - JKBeeHivewMJRefresh (0.1.0)
+  - JKBeeHivewMJRefresh (0.1.0):
+    - BeeHive (~> 1.6)
+    - MJRefresh (~> 3.0)
   - MJRefresh (3.4.3)
 
 DEPENDENCIES:
@@ -27,9 +29,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  JKBeeHivewMJRefresh: ccf0186711331633df4da0ee4e94c38657c03479
+  JKBeeHivewMJRefresh: 626f9ce1d531c90e8eca2b825806fdef5aca8291
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
 
-PODFILE CHECKSUM: 12c3846eb89582bbe134a69627ebbd3e41743583
+PODFILE CHECKSUM: b689283a52960af8ff10ce4d637a08c5be77c47c
 
 COCOAPODS: 1.9.1

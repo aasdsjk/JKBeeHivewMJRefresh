@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-基于MJRefresh和BeeHive的刷新组件
+MJRefresh - BeeHive
                        DESC
 
   s.homepage         = 'https://github.com/aasdsjk/JKBeeHivewMJRefresh'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  #s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aasdsjk' => '1289647068@qq.com' }
   s.source           = { :git => 'https://github.com/aasdsjk/JKBeeHivewMJRefresh.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'JKBeeHivewMJRefresh/Classes/**/*'
   
@@ -38,8 +38,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.subspec 'Framework' do |cs|
-    cs.dependency 'MJRefresh' , '~>3.0'
-    cs.dependency 'BeeHive' , '~>1.6'
-  end
+  
+  s.dependency 'MJRefresh' , '~>3.0'
+  s.dependency 'BeeHive' , '~>1.6'
+  
 end

@@ -1,13 +1,9 @@
 {
   "name": "JKBeeHivewMJRefresh",
   "version": "0.1.0",
-  "summary": "A short description of JKBeeHivewMJRefresh.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "刷新组件",
+  "description": "基于MJRefresh和BeeHive的刷新组件",
   "homepage": "https://github.com/aasdsjk/JKBeeHivewMJRefresh",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
   "authors": {
     "aasdsjk": "1289647068@qq.com"
   },
@@ -16,7 +12,15 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "JKBeeHivewMJRefresh/Classes/**/*"
+  "source_files": "JKBeeHivewMJRefresh/Classes/**/*",
+  "dependencies": {
+    "MJRefresh": [
+      "~>3.0"
+    ],
+    "BeeHive": [
+      "~>1.6"
+    ]
+  }
 }

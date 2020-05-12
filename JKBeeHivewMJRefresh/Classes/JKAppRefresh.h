@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BeeHive.h"
+//#import "BeeHive.h"
 #import "JKAppRefreshProtocol.h"
+#import <BeeHive/BeeHive.h>
 //@BeeHiveMod(ShopModule);
 NS_ASSUME_NONNULL_BEGIN
 
